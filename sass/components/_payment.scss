@@ -1,0 +1,269 @@
+#payment {
+  padding-top: 25px;
+  // background-color: blanchedalmond;
+
+  .payment_detail {
+    .payment_detail_item {
+      background: #FFFFFF;
+      box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+      border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+      padding: 35px 0 25px 0;
+      text-align: center;
+
+      i {
+        width: 64px;
+        height: 64px;
+        background: #4FD1C5;
+        box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+        border-radius: 12px;
+        line-height: 64px;
+        font-size: 24px;
+        color: white;
+      }
+
+      h2 {
+        padding-top: 18px;
+        font-weight: 700;
+        font-size: 18px;
+        color: #2D3748;
+        text-transform: capitalize;
+      }
+
+      p {
+        font-weight: 700;
+        font-size: 12px;
+        color: #A0AEC0;
+      }
+
+      .payment_detail_item_counter {
+        width: 172px;
+        // background-color: yellow;
+        margin: 10px auto 0 auto;
+        padding-top: 10px;
+        border-top: 1px solid #a0aec062;
+
+        span {
+          font-weight: 700;
+          font-size: 18px;
+          color: #2D3748;
+        }
+
+      }
+    }
+  }
+
+  .payment_method {
+    margin-top: 23px;
+    // background-color: pink;
+    background: #FFFFFF;
+    box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+    border-radius: 15px;
+    padding: 24px;
+
+    .payment_method_head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h2 {
+        font-weight: 700;
+        font-size: 14px;
+        color: #2D3748;
+        text-transform: capitalize;
+      }
+
+      a {
+        padding: 10px 21px;
+        font-weight: 700;
+        font-size: 10px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        background: linear-gradient(81.62deg, #313860 2.25%, #151928 79.87%);
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+
+        &:hover {
+          transform: scale(1.1);
+          -webkit-transform: scale(1.1);
+          -moz-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          -o-transform: scale(1.1);
+        }
+      }
+    }
+
+    .payment_method_input_main {
+      padding-top: 22px;
+
+      .payment_method_input {
+        position: relative;
+
+        .card {
+          position: absolute;
+          top: 50%;
+          left: 3%;
+          transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          -moz-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          -o-transform: translateY(-50%);
+        }
+
+        input {
+          padding: 23px 0;
+          width: 100%;
+          height: 100%;
+          border: none;
+          background: #FFFFFF;
+          border: 1px solid #E2E8F0;
+          border-radius: 15px;
+          transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          padding-left: 50px;
+
+          &::placeholder {
+            font-weight: 400;
+            font-size: 14px;
+            color: #A0AEC0;
+
+          }
+
+          &:focus {
+            border-color: #4FD1C5;
+          }
+        }
+
+        input[type=number]::-webkit-outer-spin-button,
+        input[type=number]::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+
+        i {
+          position: absolute;
+          top: 50%;
+          right: 4%;
+          transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          -moz-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          -o-transform: translateY(-50%);
+          font-size: 12px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .invoice {
+    background: #FFFFFF;
+    // background-color: tomato;
+    box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+    border-radius: 15px;
+    padding: 23px;
+
+    .invoice_head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 23px;
+
+      h2 {
+        font-weight: 700;
+        font-size: 18px;
+        color: #2D3748;
+        text-transform: capitalize;
+      }
+
+      a {
+        padding: 7px 25px;
+        border: 1px solid #4FD1C5;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        font-weight: 700;
+        font-size: 10px;
+        color: #4FD1C5;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+
+        &:hover {
+          color: white;
+          background-color: #4FD1C5;
+        }
+      }
+    }
+
+    .invoice_details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 22px;
+
+      &:last-child{
+        margin-bottom: 18px;
+      }
+      .invoice_details_left {
+        h2 {
+          font-weight: 700;
+          font-size: 14px;
+          color: #2D3748;
+
+        }
+
+        p {
+          font-weight: 700;
+          font-size: 12px;
+          color: #A0AEC0;
+
+        }
+      }
+
+      .invoice_details_right {
+        display: flex;
+        align-items: center;
+        span {
+          font-weight: 700;
+          font-size: 12px;
+          color: #A0AEC0;
+        }
+
+        a {
+          font-weight: 700;
+          font-size: 10px;
+          color: #2D3748;
+          text-transform: uppercase;
+          margin-left: 12px;
+          i{
+            margin-right: 2px;
+          }
+
+          &:hover{
+            color: #4FD1C5;
+          }
+        }
+      }
+    }
+  }
+}

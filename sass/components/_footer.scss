@@ -1,0 +1,36 @@
+footer {
+  padding: 25px 0 20px 0;
+  // background-color: navajowhite;
+
+  .footer_left {
+    p {
+      font-weight: 400;
+      font-size: 12px;
+      color: #A0AEC0;
+
+      a {
+        font-weight: 700;
+        font-size: 12px;
+        color: #38B2AC;
+      }
+    }
+  }
+
+  .footer_menu {
+    display: flex;
+    justify-content: end;
+
+    ul {
+      display: flex;
+      li {
+        a {
+          font-weight: 400;
+          font-size: 12px;
+          color: #A0AEC0;
+          margin-left: 40px;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}

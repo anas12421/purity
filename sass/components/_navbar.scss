@@ -1,0 +1,146 @@
+#main_navbar {
+  padding: 0 15px;
+  // background-color: red;
+  width: 100%;
+  position: sticky;
+  top: 0;
+
+  .logo {
+    padding-top: 40px;
+    padding-bottom: 23px;
+    // text-align: center;
+    padding-left: 20px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+
+  .menu {
+    margin-top: 22px;
+
+    ul {
+      li {
+        a {
+          width: 100%;
+          // background-color: yellow;
+          padding: 12px 0 12px 16px;
+          border-radius: 15px;
+          cursor: pointer;
+          font-weight: 700;
+          font-size: 12px;
+          color: #A0AEC0;
+          text-transform: capitalize;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+
+          &.active {
+            color: #2D3748;
+            background-color: white;
+            box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+          }
+
+          &:hover {
+            color: #2D3748;
+            background-color: white;
+            box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+          }
+
+          &:hover i {
+            background-color: #4FD1C5;
+            color: white;
+          }
+
+          i {
+            width: 30px;
+            height: 30px;
+            background: #fff;
+            box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+            border-radius: 12px;
+            text-align: center;
+            line-height: 30px;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            -ms-border-radius: 12px;
+            -o-border-radius: 12px;
+            font-size: 14px;
+            color: #4FD1C5;
+            transition: all 0.3s ease;
+            margin-right: 6px;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+          }
+
+          &.active i {
+            background-color: #4FD1C5;
+            color: white;
+          }
+
+          &:hover i {
+            background-color: #4FD1C5;
+            color: white;
+          }
+        }
+      }
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: 12px;
+      color: #2D3748;
+      text-transform: uppercase;
+      padding-left: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+
+  .dashboard_help {
+    margin-top: 55px;
+    background-color: #4FD1C5;
+    padding: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    position: relative;
+
+    h3 {
+      font-weight: 700;
+      font-size: 14px;
+      color: #FFFFFF;
+      padding-top: 17px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 12px;
+      color: #FFFFFF;
+    }
+
+    a {
+      padding: 10px 0;
+      background-color: white;
+      width: 100%;
+      text-align: center;
+      border-radius: 12px;
+      -webkit-border-radius: 12px;
+      -moz-border-radius: 12px;
+      -ms-border-radius: 12px;
+      -o-border-radius: 12px;
+      color: #2D3748;
+      margin-top: 8px;
+    }
+
+    .dash_shape{
+      position: absolute;
+      top: 0;
+      left: 77.5px;
+    }
+  }
+}
